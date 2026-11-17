@@ -40,54 +40,54 @@ This workshop introduces topic modeling through a series of Python-based Jupyter
 
 The workbooks cover data collection and preparation, simplified modeling examples, and applications to lecture transcripts. Additional examples explore simulated data, document similarity, and visualization.
 
-### [Extract-Query-Transcripts.ipynb](Extract-Query-Transcripts.ipynb)
+### [Extract-Query-Transcripts.ipynb](https://github.com/geoffswc/Topic-Modeling-Unsupervised-ML/blob/main/Extract-Query-Transcripts.ipynb)
 
 Retrieve transcripts from a series of YouTube videos, inspect the returned data, and combine the transcripts into a pandas DataFrame. Use SQL to query text and timestamps, locate references to a subject, and export the results to a CSV file.
 
-### [Youtube-API-Example.ipynb](Youtube-API-Example.ipynb)
+### [Youtube-API-Example.ipynb](https://github.com/geoffswc/Topic-Modeling-Unsupervised-ML/blob/main/Youtube-API-Example.ipynb)
 
 A short example of retrieving a transcript for a single YouTube video and inspecting its text.
 
-### [Prep-Data.ipynb](Prep-Data.ipynb)
+### [Prep-Data.ipynb](https://github.com/geoffswc/Topic-Modeling-Unsupervised-ML/blob/main/Prep-Data.ipynb)
 
 Prepare lecture transcripts for text analysis. Clean the text, remove stopwords, apply lemmatization, and use SQL to combine consecutive transcript segments into larger documents. Export the prepared data for use in the modeling workbooks.
 
-### [Simple-Kmeans.ipynb](Simple-Kmeans.ipynb)
+### [Simple-Kmeans.ipynb](https://github.com/geoffswc/Topic-Modeling-Unsupervised-ML/blob/main/Simple-Kmeans.ipynb)
 
 Use short passages about economics and literature to illustrate K-means clustering. Represent the documents using TF-IDF, inspect the terms associated with each cluster, and assign a new passage to a cluster.
 
-### [Simple-LDA.ipynb](Simple-LDA.ipynb)
+### [Simple-LDA.ipynb](https://github.com/geoffswc/Topic-Modeling-Unsupervised-ML/blob/main/Simple-LDA.ipynb)
 
 Use the same economics and literature passages to introduce LDA with scikit-learn. Inspect document-topic weights and topic-word weights, and examine the topic mixture assigned to a new passage.
 
-### [Topic-Modeling-Kmeans.ipynb](Topic-Modeling-Kmeans.ipynb)
+### [Topic-Modeling-Kmeans.ipynb](https://github.com/geoffswc/Topic-Modeling-Unsupervised-ML/blob/main/Topic-Modeling-Kmeans.ipynb)
 
 Apply K-means clustering to the prepared lecture transcripts. Inspect the highest-weighted terms for each cluster and assign sample text to the fitted clusters.
 
-### [Topic-Modeling-LDA.ipynb](Topic-Modeling-LDA.ipynb)
+### [Topic-Modeling-LDA.ipynb](https://github.com/geoffswc/Topic-Modeling-Unsupervised-ML/blob/main/Topic-Modeling-LDA.ipynb)
 
 Apply LDA to the prepared lecture transcripts. Inspect the terms associated with each topic and retrieve transcript passages with high weights for a selected topic.
 
-### [LDA-Simple-Gensim.ipynb](LDA-Simple-Gensim.ipynb)
+### [LDA-Simple-Gensim.ipynb](https://github.com/geoffswc/Topic-Modeling-Unsupervised-ML/blob/main/LDA-Simple-Gensim.ipynb)
 
 Generate synthetic documents from word distributions related to the Cold War and economic policy. Fit an LDA model with Gensim and compare the inferred topic-word distributions with the distributions used to generate the documents.
 
-### [Gensim-Visual-Clustering.ipynb](Gensim-Visual-Clustering.ipynb)
+### [Gensim-Visual-Clustering.ipynb](https://github.com/geoffswc/Topic-Modeling-Unsupervised-ML/blob/main/Gensim-Visual-Clustering.ipynb)
 
 Explore LDA using fabricated medical research texts. Prepare a dictionary and corpus, fit a Gensim model, calculate topic coherence, and create an interactive topic visualization with pyLDAvis.
 
-### [LDA-Document-Similarity.ipynb](LDA-Document-Similarity.ipynb)
+### [LDA-Document-Similarity.ipynb](https://github.com/geoffswc/Topic-Modeling-Unsupervised-ML/blob/main/LDA-Document-Similarity.ipynb)
 
 An exploratory example using synthetic documents to investigate cosine similarity and iterative merging of document word-count vectors. Despite the filename, this notebook explores a custom similarity-based procedure rather than fitting an LDA model.
 
-### [LDA-Document-Similarity-Topics.ipynb](LDA-Document-Similarity-Topics.ipynb)
+### [LDA-Document-Similarity-Topics.ipynb](https://github.com/geoffswc/Topic-Modeling-Unsupervised-ML/blob/main/LDA-Document-Similarity-Topics.ipynb)
 
 Extend the similarity-based exploration to lecture transcripts. Combine document word-count vectors and investigate the similarity between the original documents and the resulting combined representations.
 
-### [Topic-Similarity-BERT.ipynb](Topic-Similarity-BERT.ipynb)
+### [Topic-Similarity-BERT.ipynb](https://github.com/geoffswc/Topic-Modeling-Unsupervised-ML/blob/main/Topic-Similarity-BERT.ipynb)
 
 Explore semantic similarity using sentence-transformer embeddings. The example compares a query passage with lecture transcript passages using cosine similarity.
 
-### [Word-Cloud.ipynb](Word-Cloud.ipynb)
+### [Word-Cloud.ipynb](https://github.com/geoffswc/Topic-Modeling-Unsupervised-ML/blob/main/Word-Cloud.ipynb)
 
 Create a word cloud from lecture transcripts after basic text preparation and stopword removal. Use the visualization to explore frequently occurring terms in the collection.
