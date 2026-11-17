@@ -1,0 +1,9 @@
+baseurl: "/Topic-Modeling-Unsupervised-ML"
+
+repository: UCSF-DSOS/Topic-Modeling-Unsupervised-ML
+
+# Use the minimal theme layout
+theme: jekyll-theme-minimal
+
+# Set the plain text title for the browser tab
+title: "Topic Modeling with Unsupervised Machine Learning"
