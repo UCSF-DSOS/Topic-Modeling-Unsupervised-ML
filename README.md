@@ -74,11 +74,11 @@ Explore LDA using fabricated medical research texts. Prepare a dictionary and co
 
 ### [LDA-Document-Similarity.ipynb](https://github.com/geoffswc/Topic-Modeling-Unsupervised-ML/blob/main/LDA-Document-Similarity.ipynb)
 
-An exploratory example using synthetic documents to investigate cosine similarity and iterative merging of document word-count vectors. Despite the filename, this notebook explores a custom similarity-based procedure rather than fitting an LDA model.
+Generate synthetic documents from word distributions related to the Cold War and economic policy. Use cosine similarity to iteratively combine document word-count vectors, inspect the resulting word distributions, and compare the original documents with the combined representations.
 
 ### [LDA-Document-Similarity-Topics.ipynb](https://github.com/geoffswc/Topic-Modeling-Unsupervised-ML/blob/main/LDA-Document-Similarity-Topics.ipynb)
 
-Extend the similarity-based exploration to lecture transcripts. Combine document word-count vectors and investigate the similarity between the original documents and the resulting combined representations.
+Explore document similarity using lecture transcripts. Represent passages as word-count vectors, combine similar passages, inspect their term weights, and calculate cosine similarity between the original passages and the combined representations.
 
 ### [Topic-Similarity-BERT.ipynb](https://github.com/geoffswc/Topic-Modeling-Unsupervised-ML/blob/main/Topic-Similarity-BERT.ipynb)
 
