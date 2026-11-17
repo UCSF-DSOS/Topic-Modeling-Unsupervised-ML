@@ -30,10 +30,6 @@ This workshop is intended for participants with some experience using Python, pa
 
 No previous experience with topic modeling is expected. The examples introduce text preparation and representation in the context of the analysis.
 
-### Instructor
-
-Geoffrey Boushey is a computational and research data science specialist at UCSF and a member of the Library’s Data Science and Open Scholarship team. He teaches courses and provides consultations on programming, data analysis, machine learning, generative AI, and computational research methods, including Python, SQL, APIs, and data visualization.
-
 ## Workbooks
 
 This workshop introduces topic modeling through a series of Python-based Jupyter notebooks. Further explanatory text is available within the workbooks.
@@ -91,3 +87,7 @@ Explore semantic similarity using sentence-transformer embeddings. The example c
 ### [Word-Cloud.ipynb](https://github.com/geoffswc/Topic-Modeling-Unsupervised-ML/blob/main/Word-Cloud.ipynb)
 
 Create a word cloud from lecture transcripts after basic text preparation and stopword removal. Use the visualization to explore frequently occurring terms in the collection.
+
+### Instructor
+
+Geoffrey Boushey is a computational and research data science specialist at UCSF and a member of the Library’s Data Science and Open Scholarship team. He teaches courses and provides consultations on programming, data analysis, machine learning, generative AI, and computational research methods, including Python, SQL, APIs, and data visualization.
