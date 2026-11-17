@@ -32,7 +32,7 @@ No previous experience with topic modeling is expected. The examples introduce t
 
 ### Instructor
 
-Geoffrey Boushey is a computational and research data science specialist at UCSF and a member of the Library’s Data Science and Open Scholarship team. He teaches courses and provides consultations on programming, data analysis, machine learning, generative AI, and computational research methods, including Python, SQL, APIs, and data visualization. Geoff holds degrees in English literature, mathematics, and industrial engineering and is a registered U.S. patent agent.
+Geoffrey Boushey is a computational and research data science specialist at UCSF and a member of the Library’s Data Science and Open Scholarship team. He teaches courses and provides consultations on programming, data analysis, machine learning, generative AI, and computational research methods, including Python, SQL, APIs, and data visualization.
 
 ## Workbooks
 
